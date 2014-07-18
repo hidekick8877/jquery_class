@@ -1,0 +1,21 @@
+<head>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="parent_class.js"></script>
+<script type="text/javascript" src="child_class.js"></script>
+<script type="text/javascript">
+
+var url = "http://gdata.youtube.com/feeds/api/videos?orderby=viewCount&max-results=2&alt=json&vq=worldcup";
+//var obj = new SAMPLE.ParentClass(url, "#data");
+var obj = new SAMPLE.ChildClass(url, "#data");
+obj.get_info();
+
+</script>
+
+
+
+
+</head>
+<body>
+<div id=data></div>
+</body>
