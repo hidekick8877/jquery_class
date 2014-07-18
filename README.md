@@ -1,4 +1,4 @@
-#class sample using jQuery 
+# sample class using jQuery 
 
 ## overview
 * This sample is the definition of Class using jQuery
